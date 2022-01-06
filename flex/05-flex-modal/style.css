@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+/* * {
+  border: 2px dotted red;
+} */
+
 html, body {
   height: 100%;
 }
@@ -9,10 +13,23 @@ body {
   margin: 0;
   background: #aaa;
   color: #333;
-  /* I'll give you this one for free lol */
+/* centers the modal on the page */
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.top {
+  /* spaces the header and close button */
+display: flex;
+justify-content: space-between;
+}
+
+.column {
+  /* spaces out header, text, and continue/cancel buttons */
+display: flex;
+flex-direction: column;
+gap: .75em;
 }
 
 .modal {
@@ -20,7 +37,16 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding: 1.5em;
+  display: flex;
+  gap: 1.5em;
 }
+
+.header {
+  font-weight: bold;
+  font-size: 22px;
+}
+
 
 .icon {
   color: royalblue;
@@ -33,7 +59,9 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0;
 }
+
 
 .close-button {
   background: #eee;
@@ -63,4 +91,4 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
-}
+} 

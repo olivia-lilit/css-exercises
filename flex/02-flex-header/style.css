@@ -1,25 +1,55 @@
-.header  {
-  font-family: monospace;
-  background: papayawhip;
-}
-
-.logo {
-  font-size: 48px;
-  font-weight: 900;
-  color: tomato;
-  background: white;
-  padding: 4px 32px;
+.header {
+    background-color: peachpuff;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
 }
 
 ul {
-  /* this removes the dots on the list items*/
-  list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    background-color: white;
+    padding: 5pt;
+    margin: 5px;
+    font-family: monospace;
 }
 
 a {
-  font-size: 22px;
-  background: white;
-  padding: 8px;
-  /* this removes the line under the links */
-  text-decoration: none;
+    color: blue;
+    text-decoration: none;
+    font-size: 16px;
 }
+
+.logo {
+    background-color: white;
+    color: tomato;
+    font-family: monospace;
+    font-size: 26px;
+    font-weight: 700;
+    text-align: center; 
+    padding: 4px 10px 4px;
+    margin: 5px;
+}
+
+/* .i {
+    background-color: thistle;
+    display: flex;
+    justify-content: space-between;
+}
+
+div.item {
+    background-color: fuchsia;
+    border: 2px solid black;
+    margin: 10px;
+    height: 20px;
+    width: 20px;
+} */
