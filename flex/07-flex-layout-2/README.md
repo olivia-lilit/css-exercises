@@ -1,6 +1,6 @@
 # The Holy Grail of Layout
 
-In this last flexbox exercise you're going to recreate an incredibly common website layout. It is so common that it is often called the [Holy Grail](https://www.google.com/search?q=holy+grail+layout&tbm=isch&sclient=img) layout... and with flexbox it is actually pretty easy to pull off.
+In this last flexbox exercise you're going to recreate an incredibly common website layout. It is so common that it is often called the [Holy Grail](https://www.google.com/search?q=holy+grail+lgitsayout&tbm=isch&sclient=img) layout... and with flexbox it is actually pretty easy to pull off.
 
 As with the previous exercise, we've left a little more for you to do.
 
