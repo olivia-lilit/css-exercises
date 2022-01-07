@@ -1,0 +1,16 @@
+.red {
+    background-color:rgb(240, 167, 190);
+    font-family: Verdana, Tahoma, sans-serif;
+}
+#alpha {
+    color: #334ee2;
+    font-size: 36px;
+}
+.special {
+    font-size: 24px;
+}
+#beta {
+    background-color: rgb(180, 221, 184);
+    font-size: 24px;
+    font-weight: 700;
+}
